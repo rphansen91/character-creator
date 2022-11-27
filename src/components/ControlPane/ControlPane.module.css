@@ -10,6 +10,11 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  margin-right: 16px;
+  overflow: hidden;
+
+  display: inline-block;
+  width: 100%;
 }
 
 .title {
@@ -23,4 +28,10 @@
   font-size: 0.875rem;
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
+}
+
+@media screen and (max-width: 1024px) {
+  .controlPane {
+    max-width: 380px;
+  }
 }
